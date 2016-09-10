@@ -22,8 +22,9 @@ sudo apt-get install libjpeg62:i386 libxtst6:i386 libusb-0.1-4:i386 libstdc++6:i
 
 # Get the official archive and install the .deb package.
 wget http://www.charmexdocs.com/int/software/SBS0962_LINUX.zip
-cd SBS0942_LINUX/StarBoardSoftware
-sudo dpkg -i StarBoardSoftware_9.42_i586.deb
+unzip SBS0962_LINUX.zip
+cd SBS0962_LINUX/StarBoardSoftware
+sudo dpkg -i StarBoardSoftware_9.62_i586.deb
 # This should give a warning:
 # "None of the pre-compiled kernel modules seems to be compatible with your operating system."
 
