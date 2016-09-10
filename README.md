@@ -21,8 +21,7 @@ Either run those steps manually or as a script (not yet fully tested).
 sudo apt-get install libjpeg62:i386 libxtst6:i386 libusb-0.1-4:i386 libstdc++6:i386 libfreetype6:i386 libsm6:i386 libglib2.0-0:i386 libxrender1:i386 libfontconfig1:i386 libqtgui4:i386
 
 # Get the official archive and install the .deb package.
-wget http://starboard.hitachi-software.co.uk/SoftwareDownload/download/Linux/SBS0942_LINUX.zip
-unzip SBS0942_LINUX.zip
+wget http://www.charmexdocs.com/int/software/SBS0962_LINUX.zip
 cd SBS0942_LINUX/StarBoardSoftware
 sudo dpkg -i StarBoardSoftware_9.42_i586.deb
 # This should give a warning:
