@@ -16,13 +16,15 @@ Ejecutar en una terminmal los siguientes pasos:
 ```
 sudo apt-get install libjpeg62:i386 libxtst6:i386 libusb-0.1-4:i386 libstdc++6:i386 libfreetype6:i386 libsm6:i386 libglib2.0-0:i386 libxrender1:i386 libfontconfig1:i386 libqtgui4:i386
 ```
-## Descargar el driver actualizado e instalar el .deb:
+## Descargar el driver actualizado e instalar el **.deb**:
+
 `wget http://www.charmexdocs.com/int/software/SBS0962_LINUX.zip`
 
 `unzip SBS0962_LINUX.zip`
 
-`cd SBS0962_LINUX/StarBoardSoftware
-sudo dpkg -i StarBoardSoftware_9.62_i586.deb`
+`cd SBS0962_LINUX/StarBoardSoftware`
+
+`sudo dpkg -i StarBoardSoftware_9.62_i586.deb`
 
 ## Esto debería de dar una advertencia:
 `
@@ -33,16 +35,27 @@ sudo dpkg -i StarBoardSoftware_9.62_i586.deb`
 `sudo /usr/local/StarBoardSoftware/install.sh`
 
 ## Ahora compilar e instalar el driver arreglado:
+
 `sudo apt-get install git`
+
 `git clone https://github.com/mmuman/starboard-lsadrv.git`
+
 `cd starboard-lsadrv/lsadrv`
+
 `make`
+
 `sudo cp `uname -r`/lsadrv.ko /lib/modules/`uname -r`/kernel/drivers/usb/input/`
+
 `sudo depmod`
+
 `sudo modprobe lsadrv`
 
-## Iniciar el servidor o en su defecto el sistema:
+## Iniciar el servidor::
+
 `sudo service starboardservice start`
+
+## O reiniciar el sistema:
+
 `sudo reboot`
 
 Trabajos anteriores
