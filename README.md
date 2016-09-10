@@ -28,7 +28,7 @@ sudo dpkg -i StarBoardSoftware_9.62_i586.deb`
 `
  "None of the pre-compiled kernel modules seems to be compatible with your operating system."
 `
-## Al finalizar la instalación saldrá una advertencia diciendo que no puede montar el módulo, también puede salir otra advertencia del módulo coach y esto también se tendrá que solucionar :
+> Al finalizar la instalación saldrá una advertencia diciendo que no puede montar el módulo, también puede salir otra advertencia del módulo coach y esto también se tendrá que solucionar instalando desde la siguiente ruta :
 `sudo /usr/local/StarBoardSoftware/install.sh`
 
 ## Ahora compilar e instalar el driver arreglado:
