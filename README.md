@@ -40,9 +40,9 @@ sudo dpkg -i StarBoardSoftware_9.62_i586.deb`
 `sudo depmod`
 `sudo modprobe lsadrv`
 
-# Iniciar el servidor:
+## Iniciar el servidor o en su defecto el sistema:
 `sudo service starboardservice start`
-
+`sudo reboot`
 
 Trabajos anteriores
 --------------
