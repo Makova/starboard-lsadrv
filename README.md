@@ -12,7 +12,7 @@ Trabajo patrocinado por: [Talaria](http://www.talaria.fr/).
 
 Ejecutar en una terminmal los siguientes pasos:
 
-## Instalar todas las librerías de 32 bits necesarios para ejecutar el software StarBoard:
+## Instalar todas las librerías de 32 bits necesarios para ejecutar el software StarBoard en ordenadores de 64 bits:
 ```
 sudo apt-get install libjpeg62:i386 libxtst6:i386 libusb-0.1-4:i386 libstdc++6:i386 libfreetype6:i386 libsm6:i386 libglib2.0-0:i386 libxrender1:i386 libfontconfig1:i386 libqtgui4:i386
 ```
